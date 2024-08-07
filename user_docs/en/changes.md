@@ -18,6 +18,8 @@ The available options are:
 
 ### Changes
 
+* The `-c`/`--config-path` and `--disable-addons` command line options are now respected when launching an update from within NVDA. (#16937)
+
 ### Bug Fixes
 
 * NVDA once again relies on events for caret movement in several cases, rather than only on manual querying of the caret position.
@@ -40,7 +42,7 @@ Please refer to [the developer guide](https://www.nvaccess.org/files/nvda/docume
 * Component updates:
   * Updated py2exe to 0.13.0.2 (#16907, @dpy013)
   * Updated setuptools to 72.0 (#16907, @dpy013)
-  * Updated Ruff to 0.5.5. (#16868, @LeonarddeR)
+  * Updated Ruff to 0.5.6. (#16868, @LeonarddeR)
 * Added a `.editorconfig` file to NVDA's repository in order for several IDEs to pick up basic NVDA code style rules by default. (#16795, @LeonarddeR)
 * Added support for custom speech symbol dictionaries. (#16739, #16823, @LeonarddeR)
   * Dictionaries can be provided in locale specific folders in an add-on package, e.g. `locale\en`.
